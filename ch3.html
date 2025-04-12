@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>ISRO-Chandryaan 3</title>
+        <style>
+            .navbar{
+                background-color: powderblue;
+                color: black;
+                display:flex;
+                justify-content: space-between;
+                padding: 10px;
+                align-items: center;
+            }
+            .navbar ul{
+                display: flex;
+            }
+            .navbar ul li{
+                list-style: none;
+                text-decoration: wavy;
+            }
+            .navbar ul li a{
+                text-size-adjust: 30px;
+                color: black;
+                text-decoration: none;
+                padding: 20px;
+            }
+            .navbar ul li a:hover{
+                font-family: 'Times New Roman', Times, serif;
+                font-size: large;
+                color: blueviolet;
+                background-color: white;
+                animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+            }
+            .header{
+                position: relative;
+                width: 100%;
+                height: 100vh;
+                display:flex;
+                align-items: center;
+                justify-content: center;
+                overflow: hidden;
+            }
+            .header h1{
+                text-align: center;
+                z-index: 1;
+                color: white;
+                font-size: 5rem;
+            }
+            .header h2{
+             text-align: center;
+             color:white;
+             z-index: 1;   
+            }
+            .video{
+                position:absolute;
+                top:0;
+                left:0;
+                width: 100%;
+            }
+        </style>
+    </head>
+    <body>
+        <nav class="navbar">
+            <h1>Chandrayaan&nbsp;<span style="color: brown;">3</span></h1>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="https://www.google.com/search?q=chandrayaan+3&rlz=1C1VDKB_enIN929IN929&sxsrf=ALiCzsYeLhkP69IErn9-UBh7azAclM1QWg:1668677248072&source=lnms&tbm=nws&sa=X&ved=2ahUKEwiDxPaU87T7AhW_TGwGHZbjCEcQ_AUoAXoECAIQAw&biw=1536&bih=722&dpr=1.25">Update</a></li>
+                <li><a href="https://economictimes.indiatimes.com/news/science/chandrayaan-3-is-almost-ready-likely-to-be-launched-by-june-2023-isro-chairman-somanath/videoshow/95044038.cms">Launch</a></li>
+                <li><a href="https://en.wikipedia.org/wiki/Chandrayaan-3">Wikipedia</a></li>
+                <li><a href="https://youtu.be/cbG_0GDvOFU">Videos</a></li>
+            </ul>
+        </nav>
+        <div class="header">
+            <h1>Chandrayaan 3-&nbsp;</h1>
+            <h2>India's third lunar mission it's aim is to land on the south pole of the moon</h2>
+
+        <div class="video">
+            <video autoplay muted loop>
+                <source src="ch3.mp4" type="video/mp4">
+            </video>
+        </div>
+        </div>
+    </body>
+</html>

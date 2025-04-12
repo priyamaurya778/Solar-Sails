@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Aditya L-1</title>
+        <style>
+            .navbar{
+                background-color: black;
+                color: yellow;
+                display: flex;/*text ko upar laane ke liye*/
+                justify-content: space-between;/*taaki dale jaane wale items beech mei rahe*/
+                align-items: center;
+                padding: 11px;
+            }
+            .navbar ul{
+                display:flex;
+            } 
+            .navbar ul li{
+                list-style: none;
+                text-decoration: wavy;
+            }
+            .navbar ul li a{
+                color:yellow;
+                text-decoration: none;
+                padding: 20px;
+            }
+            .navbar ul li a:hover{
+                background-color: grey;
+            }
+            .header{
+                position:relative;
+                width: 100%;
+                height: 100vh;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                overflow: hidden;/*to avoid x axis scroll*/
+            }
+            .header h1{
+                text-align: center;
+                z-index: 1;
+                color:white;
+                font-size: 5rem;
+            }
+            .header h2{
+                text-align: center;
+                z-index: 1;
+                color:white;
+
+            }
+            .video{
+                position:absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+            }
+        </style>
+    </head>
+    <body>
+        <nav class="navbar">
+            <h1>Aditya L-1</h1>
+            <ul>
+                <li><a href="https://www.isro.gov.in/PrincipalScientist_of_theAditya.html#:~:text=Aditya%2DL1%20is%20the%20first,the%20Sun%20without%20occultation%2Feclipses.">Project Head</a></li>
+                <li><a href="https://en.wikipedia.org/wiki/Aditya-L1">Project Details</a></li>
+                <li><a href="https://www.youtube.com/watch?v=J9D8VViHjfE">More</a></li>
+            </ul>
+        </nav>
+        <div class="header">
+            <h1>Aditya L-1</h1>
+            <h2>First observatory-class-space based solar mission from India</h2>
+            <div class="video">
+                <video autoplay muted loop> 
+                    <source src="adityal1.mp4" type="video/mp4">
+                </video>
+            </div>
+
+        </div>
+    </body>
+</html>
